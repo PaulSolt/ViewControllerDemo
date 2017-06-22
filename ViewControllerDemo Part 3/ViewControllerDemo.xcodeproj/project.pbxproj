@@ -33,10 +33,6 @@
 		DA4979ED18CD303C00C5FC17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DA4979EF18CD303C00C5FC17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DA4979F118CD303C00C5FC17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DA497A0C18CD303D00C5FC17 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		DA497A1418CD303D00C5FC17 /* ViewControllerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewControllerDemoTests-Info.plist"; sourceTree = "<group>"; };
-		DA497A1618CD303D00C5FC17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DA497A1818CD303D00C5FC17 /* ViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemoTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				13F077F11EFC7AFE004C2E57 /* ViewControllers */,
-				DA497A1218CD303D00C5FC17 /* ViewControllerDemoTests */,
 				DA4979EC18CD303C00C5FC17 /* Frameworks */,
 				DA4979EB18CD303C00C5FC17 /* Products */,
 			);
@@ -92,27 +87,8 @@
 				DA4979ED18CD303C00C5FC17 /* Foundation.framework */,
 				DA4979EF18CD303C00C5FC17 /* CoreGraphics.framework */,
 				DA4979F118CD303C00C5FC17 /* UIKit.framework */,
-				DA497A0C18CD303D00C5FC17 /* XCTest.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DA497A1218CD303D00C5FC17 /* ViewControllerDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				DA497A1818CD303D00C5FC17 /* ViewControllerDemoTests.m */,
-				DA497A1318CD303D00C5FC17 /* Supporting Files */,
-			);
-			path = ViewControllerDemoTests;
-			sourceTree = "<group>";
-		};
-		DA497A1318CD303D00C5FC17 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DA497A1418CD303D00C5FC17 /* ViewControllerDemoTests-Info.plist */,
-				DA497A1518CD303D00C5FC17 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +123,7 @@
 					DA4979E918CD303C00C5FC17 = {
 						DevelopmentTeam = 3W2RUTBZT6;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -213,14 +190,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DA497A1518CD303D00C5FC17 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA497A1618CD303D00C5FC17 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -257,7 +226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -290,7 +259,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -301,6 +270,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3W2RUTBZT6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ViewControllerDemo/ViewControllerDemo-Prefix.pch";
@@ -309,6 +280,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = viewcontrollerdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
@@ -321,6 +294,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3W2RUTBZT6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ViewControllerDemo/ViewControllerDemo-Prefix.pch";
@@ -329,6 +304,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = viewcontrollerdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
