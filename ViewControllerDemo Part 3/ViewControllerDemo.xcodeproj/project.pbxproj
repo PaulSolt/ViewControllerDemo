@@ -18,22 +18,7 @@
 		DA4979EE18CD303C00C5FC17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4979ED18CD303C00C5FC17 /* Foundation.framework */; };
 		DA4979F018CD303C00C5FC17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4979EF18CD303C00C5FC17 /* CoreGraphics.framework */; };
 		DA4979F218CD303C00C5FC17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4979F118CD303C00C5FC17 /* UIKit.framework */; };
-		DA497A0D18CD303D00C5FC17 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA497A0C18CD303D00C5FC17 /* XCTest.framework */; };
-		DA497A0E18CD303D00C5FC17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4979ED18CD303C00C5FC17 /* Foundation.framework */; };
-		DA497A0F18CD303D00C5FC17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4979F118CD303C00C5FC17 /* UIKit.framework */; };
-		DA497A1718CD303D00C5FC17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA497A1518CD303D00C5FC17 /* InfoPlist.strings */; };
-		DA497A1918CD303D00C5FC17 /* ViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA497A1818CD303D00C5FC17 /* ViewControllerDemoTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DA497A1018CD303D00C5FC17 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DA4979E218CD303C00C5FC17 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DA4979E918CD303C00C5FC17;
-			remoteInfo = ViewControllerDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		13F077F21EFC7AFE004C2E57 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +33,6 @@
 		DA4979ED18CD303C00C5FC17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DA4979EF18CD303C00C5FC17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DA4979F118CD303C00C5FC17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DA497A0B18CD303D00C5FC17 /* ViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA497A0C18CD303D00C5FC17 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DA497A1418CD303D00C5FC17 /* ViewControllerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewControllerDemoTests-Info.plist"; sourceTree = "<group>"; };
 		DA497A1618CD303D00C5FC17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -63,16 +47,6 @@
 				DA4979F018CD303C00C5FC17 /* CoreGraphics.framework in Frameworks */,
 				DA4979F218CD303C00C5FC17 /* UIKit.framework in Frameworks */,
 				DA4979EE18CD303C00C5FC17 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA497A0818CD303D00C5FC17 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DA497A0D18CD303D00C5FC17 /* XCTest.framework in Frameworks */,
-				DA497A0F18CD303D00C5FC17 /* UIKit.framework in Frameworks */,
-				DA497A0E18CD303D00C5FC17 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				DA4979EA18CD303C00C5FC17 /* ViewControllerDemo.app */,
-				DA497A0B18CD303D00C5FC17 /* ViewControllerDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,24 +135,6 @@
 			productReference = DA4979EA18CD303C00C5FC17 /* ViewControllerDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DA497A0A18CD303D00C5FC17 /* ViewControllerDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DA497A1F18CD303D00C5FC17 /* Build configuration list for PBXNativeTarget "ViewControllerDemoTests" */;
-			buildPhases = (
-				DA497A0718CD303D00C5FC17 /* Sources */,
-				DA497A0818CD303D00C5FC17 /* Frameworks */,
-				DA497A0918CD303D00C5FC17 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DA497A1118CD303D00C5FC17 /* PBXTargetDependency */,
-			);
-			name = ViewControllerDemoTests;
-			productName = ViewControllerDemoTests;
-			productReference = DA497A0B18CD303D00C5FC17 /* ViewControllerDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,10 +145,8 @@
 				ORGANIZATIONNAME = "Paul Solt";
 				TargetAttributes = {
 					DA4979E918CD303C00C5FC17 = {
-						LastSwiftMigration = 0830;
-					};
-					DA497A0A18CD303D00C5FC17 = {
-						TestTargetID = DA4979E918CD303C00C5FC17;
+						DevelopmentTeam = 3W2RUTBZT6;
+						LastSwiftMigration = 0900;
 					};
 				};
 			};
@@ -211,7 +164,6 @@
 			projectRoot = "";
 			targets = (
 				DA4979E918CD303C00C5FC17 /* ViewControllerDemo */,
-				DA497A0A18CD303D00C5FC17 /* ViewControllerDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,14 +181,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA497A0918CD303D00C5FC17 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DA497A1718CD303D00C5FC17 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -250,23 +194,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA497A0718CD303D00C5FC17 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DA497A1918CD303D00C5FC17 /* ViewControllerDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DA497A1118CD303D00C5FC17 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DA4979E918CD303C00C5FC17 /* ViewControllerDemo */;
-			targetProxy = DA497A1018CD303D00C5FC17 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		13F077F41EFC7AFE004C2E57 /* LaunchScreen.storyboard */ = {
@@ -372,15 +300,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 3W2RUTBZT6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ViewControllerDemo/ViewControllerDemo-Prefix.pch";
-				INFOPLIST_FILE = "ViewControllerDemo/ViewControllerDemo-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ViewControllers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = viewcontrollerdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,59 +320,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 3W2RUTBZT6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ViewControllerDemo/ViewControllerDemo-Prefix.pch";
-				INFOPLIST_FILE = "ViewControllerDemo/ViewControllerDemo-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ViewControllers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = viewcontrollerdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		DA497A2018CD303D00C5FC17 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ViewControllerDemo.app/ViewControllerDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ViewControllerDemo/ViewControllerDemo-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ViewControllerDemoTests/ViewControllerDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		DA497A2118CD303D00C5FC17 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ViewControllerDemo.app/ViewControllerDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ViewControllerDemo/ViewControllerDemo-Prefix.pch";
-				INFOPLIST_FILE = "ViewControllerDemoTests/ViewControllerDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -462,15 +352,6 @@
 			buildConfigurations = (
 				DA497A1D18CD303D00C5FC17 /* Debug */,
 				DA497A1E18CD303D00C5FC17 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DA497A1F18CD303D00C5FC17 /* Build configuration list for PBXNativeTarget "ViewControllerDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DA497A2018CD303D00C5FC17 /* Debug */,
-				DA497A2118CD303D00C5FC17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
