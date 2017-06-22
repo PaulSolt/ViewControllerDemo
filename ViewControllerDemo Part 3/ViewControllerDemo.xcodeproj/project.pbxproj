@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13F077FC1EFC7AFE004C2E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F077F21EFC7AFE004C2E57 /* AppDelegate.swift */; };
+		13F077FD1EFC7AFE004C2E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F077F31EFC7AFE004C2E57 /* Assets.xcassets */; };
+		13F077FE1EFC7AFE004C2E57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F077F41EFC7AFE004C2E57 /* LaunchScreen.storyboard */; };
+		13F077FF1EFC7AFE004C2E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F077F61EFC7AFE004C2E57 /* Main.storyboard */; };
+		13F078001EFC7AFE004C2E57 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13F077F81EFC7AFE004C2E57 /* Info.plist */; };
+		13F078011EFC7AFE004C2E57 /* VCtoBeShownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F077F91EFC7AFE004C2E57 /* VCtoBeShownViewController.swift */; };
+		13F078021EFC7AFE004C2E57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F077FA1EFC7AFE004C2E57 /* ViewController.swift */; };
+		13F078031EFC7AFE004C2E57 /* ViewControllerToBeShown.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13F077FB1EFC7AFE004C2E57 /* ViewControllerToBeShown.xib */; };
 		DA4979EE18CD303C00C5FC17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4979ED18CD303C00C5FC17 /* Foundation.framework */; };
 		DA4979F018CD303C00C5FC17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4979EF18CD303C00C5FC17 /* CoreGraphics.framework */; };
 		DA4979F218CD303C00C5FC17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4979F118CD303C00C5FC17 /* UIKit.framework */; };
-		DA4979F818CD303C00C5FC17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA4979F618CD303C00C5FC17 /* InfoPlist.strings */; };
-		DA4979FA18CD303C00C5FC17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4979F918CD303C00C5FC17 /* main.m */; };
-		DA4979FE18CD303C00C5FC17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4979FD18CD303C00C5FC17 /* AppDelegate.m */; };
-		DA497A0118CD303C00C5FC17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4979FF18CD303C00C5FC17 /* Main.storyboard */; };
-		DA497A0418CD303C00C5FC17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA497A0318CD303C00C5FC17 /* ViewController.m */; };
-		DA497A0618CD303C00C5FC17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA497A0518CD303C00C5FC17 /* Images.xcassets */; };
 		DA497A0D18CD303D00C5FC17 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA497A0C18CD303D00C5FC17 /* XCTest.framework */; };
 		DA497A0E18CD303D00C5FC17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4979ED18CD303C00C5FC17 /* Foundation.framework */; };
 		DA497A0F18CD303D00C5FC17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4979F118CD303C00C5FC17 /* UIKit.framework */; };
 		DA497A1718CD303D00C5FC17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA497A1518CD303D00C5FC17 /* InfoPlist.strings */; };
 		DA497A1918CD303D00C5FC17 /* ViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA497A1818CD303D00C5FC17 /* ViewControllerDemoTests.m */; };
-		DA497A2318CD309800C5FC17 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA497A2218CD309800C5FC17 /* MyViewController.xib */; };
-		DA497A2618CD311E00C5FC17 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA497A2518CD311E00C5FC17 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,28 +36,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13F077F21EFC7AFE004C2E57 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13F077F31EFC7AFE004C2E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13F077F51EFC7AFE004C2E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13F077F71EFC7AFE004C2E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13F077F81EFC7AFE004C2E57 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F077F91EFC7AFE004C2E57 /* VCtoBeShownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCtoBeShownViewController.swift; sourceTree = "<group>"; };
+		13F077FA1EFC7AFE004C2E57 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13F077FB1EFC7AFE004C2E57 /* ViewControllerToBeShown.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerToBeShown.xib; sourceTree = "<group>"; };
 		DA4979EA18CD303C00C5FC17 /* ViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4979ED18CD303C00C5FC17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DA4979EF18CD303C00C5FC17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DA4979F118CD303C00C5FC17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DA4979F518CD303C00C5FC17 /* ViewControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewControllerDemo-Info.plist"; sourceTree = "<group>"; };
-		DA4979F718CD303C00C5FC17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DA4979F918CD303C00C5FC17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DA4979FB18CD303C00C5FC17 /* ViewControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
-		DA4979FC18CD303C00C5FC17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DA4979FD18CD303C00C5FC17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DA497A0018CD303C00C5FC17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DA497A0218CD303C00C5FC17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DA497A0318CD303C00C5FC17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DA497A0518CD303C00C5FC17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DA497A0B18CD303D00C5FC17 /* ViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA497A0C18CD303D00C5FC17 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DA497A1418CD303D00C5FC17 /* ViewControllerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewControllerDemoTests-Info.plist"; sourceTree = "<group>"; };
 		DA497A1618CD303D00C5FC17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA497A1818CD303D00C5FC17 /* ViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemoTests.m; sourceTree = "<group>"; };
-		DA497A2218CD309800C5FC17 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
-		DA497A2418CD311E00C5FC17 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
-		DA497A2518CD311E00C5FC17 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +79,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13F077F11EFC7AFE004C2E57 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				13F077F21EFC7AFE004C2E57 /* AppDelegate.swift */,
+				13F077F31EFC7AFE004C2E57 /* Assets.xcassets */,
+				13F077F41EFC7AFE004C2E57 /* LaunchScreen.storyboard */,
+				13F077F61EFC7AFE004C2E57 /* Main.storyboard */,
+				13F077F81EFC7AFE004C2E57 /* Info.plist */,
+				13F077F91EFC7AFE004C2E57 /* VCtoBeShownViewController.swift */,
+				13F077FA1EFC7AFE004C2E57 /* ViewController.swift */,
+				13F077FB1EFC7AFE004C2E57 /* ViewControllerToBeShown.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		DA4979E118CD303C00C5FC17 = {
 			isa = PBXGroup;
 			children = (
-				DA4979F318CD303C00C5FC17 /* ViewControllerDemo */,
+				13F077F11EFC7AFE004C2E57 /* ViewControllers */,
 				DA497A1218CD303D00C5FC17 /* ViewControllerDemoTests */,
 				DA4979EC18CD303C00C5FC17 /* Frameworks */,
 				DA4979EB18CD303C00C5FC17 /* Products */,
@@ -112,34 +122,6 @@
 				DA497A0C18CD303D00C5FC17 /* XCTest.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DA4979F318CD303C00C5FC17 /* ViewControllerDemo */ = {
-			isa = PBXGroup;
-			children = (
-				DA4979FC18CD303C00C5FC17 /* AppDelegate.h */,
-				DA4979FD18CD303C00C5FC17 /* AppDelegate.m */,
-				DA4979FF18CD303C00C5FC17 /* Main.storyboard */,
-				DA497A0218CD303C00C5FC17 /* ViewController.h */,
-				DA497A0318CD303C00C5FC17 /* ViewController.m */,
-				DA497A2218CD309800C5FC17 /* MyViewController.xib */,
-				DA497A2418CD311E00C5FC17 /* MyViewController.h */,
-				DA497A2518CD311E00C5FC17 /* MyViewController.m */,
-				DA497A0518CD303C00C5FC17 /* Images.xcassets */,
-				DA4979F418CD303C00C5FC17 /* Supporting Files */,
-			);
-			path = ViewControllerDemo;
-			sourceTree = "<group>";
-		};
-		DA4979F418CD303C00C5FC17 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DA4979F518CD303C00C5FC17 /* ViewControllerDemo-Info.plist */,
-				DA4979F618CD303C00C5FC17 /* InfoPlist.strings */,
-				DA4979F918CD303C00C5FC17 /* main.m */,
-				DA4979FB18CD303C00C5FC17 /* ViewControllerDemo-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		DA497A1218CD303D00C5FC17 /* ViewControllerDemoTests */ = {
@@ -207,6 +189,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Paul Solt";
 				TargetAttributes = {
+					DA4979E918CD303C00C5FC17 = {
+						LastSwiftMigration = 0830;
+					};
 					DA497A0A18CD303D00C5FC17 = {
 						TestTargetID = DA4979E918CD303C00C5FC17;
 					};
@@ -236,10 +221,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA497A0618CD303C00C5FC17 /* Images.xcassets in Resources */,
-				DA4979F818CD303C00C5FC17 /* InfoPlist.strings in Resources */,
-				DA497A2318CD309800C5FC17 /* MyViewController.xib in Resources */,
-				DA497A0118CD303C00C5FC17 /* Main.storyboard in Resources */,
+				13F078001EFC7AFE004C2E57 /* Info.plist in Resources */,
+				13F077FF1EFC7AFE004C2E57 /* Main.storyboard in Resources */,
+				13F077FD1EFC7AFE004C2E57 /* Assets.xcassets in Resources */,
+				13F077FE1EFC7AFE004C2E57 /* LaunchScreen.storyboard in Resources */,
+				13F078031EFC7AFE004C2E57 /* ViewControllerToBeShown.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,10 +244,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA497A0418CD303C00C5FC17 /* ViewController.m in Sources */,
-				DA4979FE18CD303C00C5FC17 /* AppDelegate.m in Sources */,
-				DA497A2618CD311E00C5FC17 /* MyViewController.m in Sources */,
-				DA4979FA18CD303C00C5FC17 /* main.m in Sources */,
+				13F078021EFC7AFE004C2E57 /* ViewController.swift in Sources */,
+				13F077FC1EFC7AFE004C2E57 /* AppDelegate.swift in Sources */,
+				13F078011EFC7AFE004C2E57 /* VCtoBeShownViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,18 +269,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DA4979F618CD303C00C5FC17 /* InfoPlist.strings */ = {
+		13F077F41EFC7AFE004C2E57 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DA4979F718CD303C00C5FC17 /* en */,
+				13F077F51EFC7AFE004C2E57 /* Base */,
 			);
-			name = InfoPlist.strings;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		DA4979FF18CD303C00C5FC17 /* Main.storyboard */ = {
+		13F077F61EFC7AFE004C2E57 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DA497A0018CD303C00C5FC17 /* Base */,
+				13F077F71EFC7AFE004C2E57 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -388,10 +373,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ViewControllerDemo/ViewControllerDemo-Prefix.pch";
 				INFOPLIST_FILE = "ViewControllerDemo/ViewControllerDemo-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -401,10 +390,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ViewControllerDemo/ViewControllerDemo-Prefix.pch";
 				INFOPLIST_FILE = "ViewControllerDemo/ViewControllerDemo-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -412,6 +404,7 @@
 		DA497A2018CD303D00C5FC17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ViewControllerDemo.app/ViewControllerDemo";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -435,6 +428,7 @@
 		DA497A2118CD303D00C5FC17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ViewControllerDemo.app/ViewControllerDemo";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -470,6 +464,7 @@
 				DA497A1E18CD303D00C5FC17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA497A1F18CD303D00C5FC17 /* Build configuration list for PBXNativeTarget "ViewControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +473,7 @@
 				DA497A2118CD303D00C5FC17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
